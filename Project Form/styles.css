@@ -1,0 +1,94 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}   
+*{
+font-family: 'Roboto', sans-serif;
+}
+body{
+  background-image: linear-gradient(
+      115deg,
+      rgba(206, 156, 64, 0.8),
+      rgba(105, 221, 115, 0.7)),
+    url(https://www.madison.co.nz/wp-content/uploads/2023/09/Madison-How-to-answer-common-job-interview-questions-Blog-header-1.jpg.webp);
+     background-position: center center; 
+    color: white;   
+}
+label{
+  display: flex;
+  align-items: center;
+}
+#title,#description{
+  text-align: center;
+  font-size: 35px; 
+}
+#description{
+  margin-top: -15px;
+  margin-bottom: 40px;
+font-size: 25px; 
+}
+#name-label{
+  display:block;
+  margin-bottom: 30px; 
+}
+#name{
+  display: block;
+  width: 90%;
+  padding: 5px;
+  margin: 10px auto;
+}
+#email-label{
+  display:block;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+#email{
+  display: block;
+  width: 90%;
+  padding: 5px;
+  margin: 10px auto;
+}
+#number-label{
+  display: block;
+
+
+}
+#number{
+  display:block;
+  width:90%;
+  margin: 10px auto; 
+  padding: 5px;
+}
+#dropdown{ 
+  display: block; 
+  padding: 5px;
+  width: 90%;
+  margin: 10px auto;
+}
+textarea{
+  display: block; 
+  width: 90%;
+  height: 100px;
+  margin: 10 auto;
+}
+#submit {
+  margin-top: 10px;
+  width: 80%;
+}
+#submit{
+  display: block;
+  padding: 0.5rem 1rem;
+  width: 95%;
+  margin: 10px auto;
+  color: white;
+  background-color: rgb(49, 155, 49); 
+}
+#name-label{
+  margin: 10px auto;
+}
+fieldset{
+  width: 35%;
+  margin: 0 auto;
+  background-color:rgba(34, 34, 100, 0.8);
+}
+

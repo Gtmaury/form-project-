@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="styles.css"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  </head>
+  <body>
+  <h1 id="title">
+    Formulario Wumpa
+  </h1>
+  <p id="description">Formulario para nuevos empleados de wumpa (vendedores)</p>
+<fieldset>
+
+<div id="all">
+  <form id="survey-form">
+  <div id="survey-form"> 
+<label id="name-label"> Nombre  <input id="name" type="text" placeholder="Nombre completo" required>
+
+
+
+<div class="form-group">
+<label id="email-label"> Correo Electronico 
+<input id="email" type="email" placeholder ="Correo electronico"  required>
+</label>
+ </div>
+
+
+<div class="form-group">
+<label id="number-label" >Edad <input id="number" type ="number" min="18" max="30" placeholder="Edad">  
+</div>
+
+
+<div class="form-group">
+<label>Genero</label>
+<select id="dropdown">
+  
+  <option disabled selected hidden >Sexo</option>
+  <option id="selector "value="Sexo">Masculino</option>
+  <option>Femenino</option>
+</select>
+</div>
+
+
+<div class="form-group">
+<p>¿Tiene experiencia en el area?</p>
+<label for="radio"><input value ="radio"name="radio" type="radio"> Si
+<input value ="radio" name="radio" type="radio"> No
+</label>
+<p id"p-checkbox">¿Que otras habilidad posees?</p>
+<label><input id"p-checkbox" id="checkbox" value="ingles" type="checkbox" checked>Ingles</label> 
+<label><input id="checkbox" value="ventas" type="checkbox">Ventas</label>  
+<label><input id"p-checkbox" id="checkbox"  value="logistica" type="checkbox">Logistica en almacen</label> 
+</div>
+
+
+<div class="form-group">
+   <label> <textarea name="comments" rows="3" cols="30" placeholder="Otro comentarios"></textarea>
+</label>
+</div>
+
+<div class="form-group">
+<label><input id="submit"value="Enviar" id="submit" type="submit">
+</label>
+</div>
+</div>
+
+    </form>
+  
+  </fieldset>
+  </body>
